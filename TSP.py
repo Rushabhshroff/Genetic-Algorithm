@@ -41,7 +41,7 @@ def getDistance(l, graph):
 
 
 class Genetics:
-    def __init__(self, places, distanceGraph, maxGenerations=10):
+    def __init__(self, places, distanceGraph, maxGenerations=50):
         self.places = places
         self.distanceGraph = distanceGraph
         self.maxGenerations = maxGenerations
